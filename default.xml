@@ -8,6 +8,9 @@
            fetch="https://github.com"
            review="gerrit.paranoidandroid.co" />
 
+  <remote  name="D4X"
+           fetch="https://github.com/iiD4x" />
+
   <remote  name="sm"
            fetch="https://github.com/SaberMod" />
 
@@ -274,15 +277,15 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="aospal" revision="kitkat-legacy" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="aospal" revision="remix-legacy" />
+  <project path="frameworks/av" name="AOSPAL_frameworks_av" remote="D4X" revision="kitkat-legacy" groups="pdk" />
+  <project path="frameworks/base" name="AOSPAL_frameworks_base" remote="D4X" revision="remix-legacy" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" remote="aospal" revision="kitkat" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="aospal" revision="kitkat-legacy" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="aospal" revision="kitkat-legacy" groups="pdk" />
+  <project path="frameworks/native" name="AOSPAL_frameworks_native" remote="D4X" revision="kitkat-legacy" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -374,7 +377,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="aospal" revision="remix-legacy" />
+  <project path="packages/services/Telephony" name="AOSPAL_packages_services_Telephony" remote="D4X" revision="remix-legacy" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -421,12 +424,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat-legacy" />
+  <project path="system/core" name="AOSPAL_system_core" remote="D4X" revision="kitkat-legacy" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0"/>
   <project path="system/media" name="android_system_media" remote="aospal" revision="remix-legacy" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="aospal" revision="cm-11.0" groups="pdk" />
+  <project path="system/vold" name="AOSPAL_system_vold" remote="D4X" revision="cm-11.0" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
