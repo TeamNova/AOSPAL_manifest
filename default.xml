@@ -36,7 +36,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPAL_manifest" remote="github" revision="remix-legacy" />
+  <project path="manifest" name="iiD4x/AOSPAL_manifest" remote="github" revision="remix-legacy" />
 
   <project path="build" name="android_build" remote="aospal" revision="kitkat-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
