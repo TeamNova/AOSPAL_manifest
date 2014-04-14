@@ -43,7 +43,7 @@ There are four (4) main branches to build from:
 
 Initialize repo:
 
-    repo init -u git://github.com/TeamNova/manifest.git -b remix-legacy
+    repo init -u git://github.com/TeamNova/AOSPAL_manifest.git -b remix-legacy
 
 Sync the repo:
 
